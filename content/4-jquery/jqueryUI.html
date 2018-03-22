@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script src="jquery-ui/jquery-ui.js"></script>
+	<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+	
+	<style type="text/css">
+		#draggable {
+			width: 200px;
+			height: 200px; 
+		}
+		#droppable {
+			width: 300px;
+			height: 300px; 
+			background-color: blue; 
+		}
+	</style>
+	<div id="draggable">
+		<p>Drag me into the blue square</p>
+	</div>
+	<div id="droppable">Drop here!</div>
+	<div id="accordion">
+		<h3>Section 1</h3>
+			<div>
+				<p>Lorem ipsum dolor sit amet, facete mollis suscipiantur ei his, eu sit graeco mediocritatem, legimus abhorreant incorrupte eu eum. Quo diceret albucius apeirian id, at pro eros wisi, usu tempor detraxit ei. </p>	
+			</div>
+		<h3>Section 2</h3>
+			<div>
+				<p>Id mei alii mucius scripserit, mei et integre disputationi. Electram convenire quo ne. Quot soleat libris per te, animal audire pertinax vis eu. Ea possit mnesarchum posidonium pri.</p>
+			</div>
+		<h3>Section 3</h3>
+			<div>
+				<p>Dicit tritani euismod id vix, inani regione eos no. Possit officiis ne est. Ne vide assum eam, ferri mundi postulant eam id. Eu vide soleat qualisque mei, errem meliore duo ne. Ad audiam vivendo suscipit vis.</p>
+			</div>
+		<h3>Section 4</h3>
+			<div>
+				<p>Lorem ipsum dolor sit amet, ludus laudem eligendi sea et, altera patrioque neglegentur te mei. Diam velit definitionem sed ea. Alii nusquam pri in, at tale solum quidam pri, assum putent reprimique in eum. Id persius nostrud atomorum his.</p>
+			</div>
+	</div>
+	<script type="text/javascript">
+		$("#draggable").draggable(); 
+		$("#droppable").droppable( {
+			drop: function(event, ui) {
+				$(this).html("Dropped!");
+			}
+		});
+		$("#accordion").accordion(); 
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

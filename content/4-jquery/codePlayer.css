@@ -1,0 +1,60 @@
+#header {
+	background-color: #EEEEEE;
+	padding: 5px; 
+	width:100%;
+	height: 30px; 
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#logo {
+	float:left; 
+	font-size: 110%;
+	font-weight: bold;
+	padding: 3px 5px;
+}
+#buttonContainer {
+	width: 300px; 
+	margin: 0 auto; 
+}
+.toggleButton {
+	float:left; 
+	border: 1px solid grey; 
+	padding: 4px; 
+	border-right: none; 
+}
+#html {
+	border-top-left-radius: 4px; 
+	border-bottom-left-radius: 4px; 
+}
+#output {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-right: 1px solid grey;
+}
+.active {
+	background-color: #E8F2FF;
+}
+
+.highlightedButton {
+	background-color: grey; 
+}
+textarea {
+	width: 50%;
+	resize: none; 
+	border-top:none; 
+	border-color: grey; 
+}
+.panel {
+	float: left;
+	border-left: none;  
+}
+
+iframe {
+	border:none; 
+}
+.hidden {
+	display: none; 
+}

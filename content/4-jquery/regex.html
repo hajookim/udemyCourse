@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regular Expressions</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		var regex = /Great/i; //i is for case insensitive 
+		var count = /e/g; //g is for global; returns every intance 
+		var string = "Regex is great!";
+		var result = string.match(regex);
+		var result2 = string.match(count);
+		alert(result);
+		alert(result2); 
+		
+
+	</script>
+
+</body>
+</html>

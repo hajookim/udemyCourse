@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Jade Kim</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <style>
+            .jumbotron {
+                background: url('images/bg.jpg');
+                text-align: center;
+                margin-top:50px;
+            }
+
+            h3 {
+                text-align: left; 
+                color: #0033cc;
+            }
+            body {
+                position: relative;
+            }
+            .work-container {
+                margin-top: 20px;
+                width: 980px !important ;
+                float: left; 
+
+            }
+            .container {
+                
+            }
+            .logo {
+                width: 150px;
+                height: 150px;
+                float: left; 
+            }
+            .text-container {
+                float:left; 
+                width: 600px;
+                margin-left: 50px;
+            }
+
+            #projects {
+                
+            }
+            #spotify {
+                width: 300px;
+                height: 300px;
+                opacity: 0.8;
+                float:right;
+                position: relative;
+                top: -33px;
+            }
+        </style>
+    </head>
+
+    <body data-spy="scroll" data-target="#navbar" data-offset="150"> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-pills">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Personal Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!--
+                <form class="form-inline pull-xs-right">
+                    <input class="form-control" type="email" placeholder="Email">
+                    <input class="form-control" type="password" placeholder="Password">
+                    <button class="btn btn-success" type="submit">Login</button>
+            
+                </form>
+                --> 
+            </div>
+        </nav>
+
+        <div class="jumbotron" id="home">
+
+            <h1 class="display-3    ">Hi, My name is Jade</h1>
+            <i class="fa fa-envelope" aria-hidden="true"> <p class="lead">hajookim@umich.edu</p> </i>
+            <!--
+            <form class="form-inline">
+                <div class="form-group">
+                    <label class="sr-only" for="email">Email address</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">@</div>
+                        <input type="email" class="form-control" id="email" placeholder="your email">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary" style="margin-left: 10px">Sign Up</button>
+            </form> --> 
+
+        </div>
+
+         <iframe id="spotify" src="https://open.spotify.com/embed/user/odrrf1ooyh3qu98c4s5diqnel/playlist/6CGQ2bj5ht9oEKG38wnBCP" frameborder="0" allowtransparency="true"></iframe>
+        <div class="container" id="about">
+            <h3 style="margin-bottom: 20px">About</h3>
+            <p class="lead"> I am a senior studying computer science at the University of Michigan. My current interest lies in web and mobile development.
+                Outside of my technical interests, I enjoy playing Overwatch, playing Overwatch, and playing Overwatch. <br> I also like taking pictures and keeping them for myself.
+                <p>My resume can be found <a href="https://www.dropbox.com/s/ws8jtc9t9nnxdid/Jade_Kim_Resume.docx?dl=0" target="_blank">here</a></p>
+            </p>
+        </div>
+        
+
+        <div class="container" id="work">
+            <h3 style="margin-bottom: 20px; margin-top: 40px;">Work Experience</h3>
+            <div class="container work-container"> 
+                <img class="logo" src="images/atto.png">
+                <div class="text-container">
+                    <p class="lead">ATTO Research June 2016 - August 2016 </p>
+                    <p>I've had the opportunity to work with ATTO Research which specializes in SDN/NFV technologies. I started out with an idea from scratch, refined it, and helped it grow. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="projects">
+            <h3 style="margin-bottom: -5px; margin-top: 220px;">Personal Projects</h3>
+            <div class="container work-container"> 
+                <div class="text-container" style="margin-left: -15px">
+                    <p class="lead">ImHome - iOS </p>
+                    <p>A location tracking app that allows users to share their location with selected users in real time. Designed to create a sense of safety for users who feel nervous when traveling alone.
+                    At the end of the trip, users and their circle are able to view all tracks of the user. </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>
